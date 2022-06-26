@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BarleyBreakGameInterface.Model.Record">
+    <Position X="7.75" Y="2" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAGBAAAAAAAAAAAAIAAAQAAAgAAAAAAAAAAIAAAAAQA=</HashCode>
+      <FileName>Model\Record.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BarleyBreakGameInterface.View.GamePage">
+    <Position X="12.75" Y="9.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\GamePage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BarleyBreakGameInterface.View.MainMenuPage">
+    <Position X="8" Y="9.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainMenuPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.GameViewModel">
+    <Position X="12.5" Y="4.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAIAAAAAgAABAAAAAAAEAAAQAAAAEAAgAABgA=</HashCode>
+      <FileName>ViewModel\GameViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Record" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.MainMenuViewModel">
+    <Position X="4.25" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAABAAAAAAgAAIAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\MainMenuViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarleyBreakGameInterface.View.RecordsPage">
+    <Position X="4" Y="9.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\RecordsPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.RecordsViewModel">
+    <Position X="7.75" Y="6.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>ViewModel\RecordsViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="RecordsCollection" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

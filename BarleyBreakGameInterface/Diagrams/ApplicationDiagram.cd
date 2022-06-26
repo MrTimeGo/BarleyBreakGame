@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BarleyBreakGameInterface.Dao.DataFileTemplate">
+    <Position X="34.25" Y="0.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAgAIAAAAAAQAAAAACQAAAAAAACEAAAAABAAAA=</HashCode>
+      <FileName>Dao\DataFileTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarleyBreakGameInterface.Dao.JsonDataFile">
+    <Position X="31.75" Y="4.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dao\JsonDataFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarleyBreakGameInterface.Dao.XmlDataFile">
+    <Position X="36.75" Y="4.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dao\XmlDataFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarleyBreakGameInterface.Model.Style.StyleImplementation">
+    <Position X="21" Y="5.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJEAAAAAAAACAAAFAAACAAAACAAAAAAAAAAEAgA=</HashCode>
+      <FileName>Model\Style\StyleImplementation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarleyBreakGameInterface.Model.Style.MinimalisticStyle">
+    <Position X="22.25" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Model\Style\MinimalisticStyle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarleyBreakGameInterface.Model.Style.PeridotStyle">
+    <Position X="25.25" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Model\Style\PeridotStyle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarleyBreakGameInterface.Model.Style.RubitStyle">
+    <Position X="19.25" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Model\Style\RubitStyle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarleyBreakGameInterface.Model.Record">
+    <Position X="0.5" Y="6" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAGBAAAAAAAAAAAAIAAAQAAAgAAAAAAAAAAIAAAAAQA=</HashCode>
+      <FileName>Model\Record.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.RecordsViewModel">
+    <Position X="4" Y="2.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>ViewModel\RecordsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.GameViewModel">
+    <Position X="4.5" Y="5.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAIAAAAAgAABAAAAAAAEAAAQAAAAEAAgAABgA=</HashCode>
+      <FileName>ViewModel\GameViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.MainMenuViewModel">
+    <Position X="4" Y="10.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAABAAAAAAgAAIAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\MainMenuViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.Command.ChangeStyleCommand">
+    <Position X="9.75" Y="5.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Command\ChangeStyleCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.Command.ExitCommand">
+    <Position X="8.75" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Command\ExitCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.Command.ExportJsonCommand">
+    <Position X="9" Y="6.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACgAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Command\ExportJsonCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.Command.ExportXmlCommand">
+    <Position X="8.5" Y="7.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACgAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Command\ExportXmlCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.Command.MoveTileCommand">
+    <Position X="9" Y="8.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ViewModel\Command\MoveTileCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.Command.StartGameCommand">
+    <Position X="8.75" Y="9.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Command\StartGameCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BarleyBreakGameInterface.ViewModel.Command.ViewRecordsTableCommand">
+    <Position X="9" Y="10.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Command\ViewRecordsTableCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
